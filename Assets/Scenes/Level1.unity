@@ -757,7 +757,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94595637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.276849, y: 5.09, z: -10}
+  m_LocalPosition: {x: 12.258613, y: 5.09, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2090611240}
@@ -2516,7 +2516,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.276849, y: 5.09, z: -10}
+  m_LocalPosition: {x: 12.258613, y: 5.09, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10927,7 +10927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42aaef0e73789df408f2007052b1b07e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torqueAmount: 40
+  torqueAmount: 10
   boostSpeed: 40
   baseSpeed: 20
 --- !u!114 &1367697848
@@ -17021,10 +17021,10 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: 527.0637, y: -1.8395386, z: 0}
-      leftTangent: {x: 1.7159424, y: 1.4139171, z: 0}
+    - position: {x: 527.0637, y: -1.9090066, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
-      mode: 2
+      mode: 0
       height: 1.82
       bevelCutoff: 0
       bevelSize: 0
@@ -17586,22 +17586,10 @@ EdgeCollider2D:
   - {x: 601.48376, y: 1.0744214}
   - {x: 601.366, y: -0.35601628}
   - {x: 601.289, y: -1.3880432}
-  - {x: 601.07355, y: -1.5880365}
-  - {x: 600.15216, y: -1.5763627}
-  - {x: 593.5412, y: -1.5184076}
-  - {x: 588.3601, y: -1.4783547}
-  - {x: 582.26697, y: -1.438696}
-  - {x: 575.51636, y: -1.4047205}
-  - {x: 568.3618, y: -1.3817171}
-  - {x: 561.05756, y: -1.3749747}
-  - {x: 553.858, y: -1.3897806}
-  - {x: 547.01697, y: -1.4314202}
-  - {x: 540.78925, y: -1.5051694}
-  - {x: 535.4295, y: -1.6162748}
-  - {x: 531.19495, y: -1.7698195}
-  - {x: 528.3572, y: -1.9687669}
-  - {x: 527.3104, y: -2.1389282}
-  - {x: 527.0696, y: -2.2274265}
+  - {x: 601.0778, y: -1.5880482}
+  - {x: 600.13495, y: -1.5948528}
+  - {x: 596.452, y: -1.6323534}
+  - {x: 527.0696, y: -2.2968955}
   - {x: 121.82365, y: -8.388721}
   - {x: 47.69291, y: -9.220115}
   - {x: 26.316597, y: -9.4591465}
